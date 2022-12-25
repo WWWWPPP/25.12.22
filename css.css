@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+  }
+body{
+    background-image:
+    linear-gradient(rgba(240, 242, 243, 0.78),
+    rgba(0, 188, 212, 0.78)),
+    url('fon.jpg');
+    background-size: 100% auto;
+    
+    
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 22px;
+}
+img{
+    width:300px;
+    height: 480px;
+    box-shadow: 5px 5px 3px rgb(9, 90, 93);
+    margin: 5px;
+}
+div{
+    
+display: inline-block;
+}
+
+button{
+    background:#eee;
+    font-size: 20px;
+    color:#088;
+
+    display:block;
+    width: 150px;
+    text-align:center;
+    margin:20px auto;
+    transition:all 0.3s;
+    }
+button:hover{
+    box-shadow:0px -5px 0 #088 inset;
+  }
